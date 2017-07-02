@@ -1,0 +1,61 @@
+# Site settings
+title: Alex Munoz
+email: binaryalex01@gmail.com
+url: https://binaryalex.github.io
+description: "It's just binary sludge!"
+keywords: "java, android"
+skills: "Software Developer"
+meta_author: Munoz Alex
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+#disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Alex Munoz
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/afmunoz/
+  - title: twitter
+    url: https://twitter.com/binaryalex
+  - title: github
+    url: https://github.com/binaryalex
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Sydney, NSW
+  - line: Australia
+
+# Credits content
+credits: 
+   - line: 'Built with <a href="http://jekyllrb.com/">Jekyll</a>'
+   - line: 'Hosted on <a href="https://pages.github.com/">Github Pages</a>'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
